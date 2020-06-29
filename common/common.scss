@@ -8,11 +8,18 @@
   }
 
 .laurel {
- margin-left: 5px !important;
+position: relative !important;
+width: 32px !important;
+height: 32px !important;
+margin-top: -30px !important;
+margin-left: 0px !important;
 }
-
 .avatar-flair {
  position: relative !important;
  margin-top: -15px !important;
  margin-left: 15px !important;
+}
+
+div.topic-avatar div.avatar-flair {
+z-index: 10 !important;
 }
